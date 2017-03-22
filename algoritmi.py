@@ -3,6 +3,7 @@
 from process import process
 import copy
 
+#change this to True to see the order of execution
 verbose=False
 
 def statistic(completed, end):
@@ -18,7 +19,7 @@ def statistic(completed, end):
 	print("Execution completed in "+str(end)+" clocks")
 	print("Average Response Time: "+str(tr/len(completed)))
 	print("Average Waiting Time: "+str(tw/len(completed)))
-	print("Averaege Turnaround Time: "+str(tt/len(completed)))
+	print("Average Turnaround Time: "+str(tt/len(completed)))
 	del completed[:]
 
 def fcfs(memory,completed):

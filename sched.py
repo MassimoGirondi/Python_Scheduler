@@ -6,7 +6,7 @@ import copy
 
 memory=list()
 completed=list()
-input=open("processi")
+input=open("process_list")
 #PID, entering time, cpu burst lenght
 for linea in input:
 	p=linea.split(' ')
