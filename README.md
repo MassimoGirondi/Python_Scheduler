@@ -12,6 +12,6 @@ The included algorithm are the following:
 * Round Robin
 * Highest Response Ratio Next
 
-`sched.py` is the main file, it imports `process` class from `process.py` and the scheduling algorithm from `algoritmi.py`.
+`sched.py` is the main file, it imports `process` class from `process.py` and the scheduling algorithms from `algoritmi.py`.
 
-The process are read and put in the `memory` list at the beginning of the program and this list is passed by value to every algorithm, that remove the process from the list during the execution and put them into the completed queue.
+The process are read and put in the `memory` list at the beginning of the program and this list is passed by value to every algorithm, that remove the process from the list during the execution and put them into the `completed` queue.
